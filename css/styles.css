@@ -1,0 +1,32 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: 'Mulish', sans-serif;
+    font-size: 20px;
+    color: #5a5a5a;
+    background-color: #ffffff;
+    text-rendering: optimizeLegibility;
+}
+
+
+header {
+    background-image: linear-gradient( rgba(47, 143, 157,0.6) 55%,rgba(179, 232, 229,0.8)), url("../image/test.jpg");
+    /* to right top , 135deg */
+    /* width: 1080px; */
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    background-attachment: fixed;
+}
+
+.logo {
+    width: 60px;
+    border-radius: 20%;
+    float: left;
+    margin-left: 90px;
+    margin-top: 40px;
+}
